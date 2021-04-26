@@ -59,4 +59,3 @@ class Password {
  const mySecondPassword = new Password().generate(10);
  const myThirdPassword = new Password().generate(5,'T')
 
-console.log({myPassword,mySecondPassword,myThirdPassword});

@@ -58,4 +58,3 @@ var Password = /** @class */ (function () {
 var myPassword = new Password().generate(10, 'Leo', 'beginning');
 var mySecondPassword = new Password().generate(10);
 var myThirdPassword = new Password().generate(5, 'T');
-console.log({ myPassword: myPassword, mySecondPassword: mySecondPassword, myThirdPassword: myThirdPassword });
